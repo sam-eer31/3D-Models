@@ -21,9 +21,9 @@ High-fidelity procedural 3D model generator for astronomical bodies (Earth, Moon
 │   └── compress_model.py      # GLTF/GLB optimization engine
 ├── output/                    # Generated 3D models saved here (.glb)
 └── scripts/
-    ├── build_generator.py     # Script runner and manager
+    ├── run_generator.py       # Script runner and batch generator
     ├── create_earth.py        # Layered animated Earth script
-    ├── create_moon.py         # 8K Moon generator script
+    ├── create_moon.py         # 8K Moon script
     ├── create_topographic_earth.py # Exaggerated topographic Earth script
     └── textures/              # Texture assets cache
 ```
@@ -46,7 +46,7 @@ Double-click `build_model.bat` in the root folder, or run:
 ```bash
 python scripts/run_generator.py
 ```
-Select the model you wish to generate from the menu. Generated files are automatically saved into `output/` with duplicate-numbering protection (e.g. `earth.glb`, `earth_1.glb`).
+Select an individual model to generate (1 by 1) or choose the option to generate all models at once. After each run, you can choose to build more models or cleanly exit. Generated files are automatically saved into `output/` with duplicate-numbering protection (e.g. `earth.glb`, `earth_1.glb`).
 
 ### Compressing 3D Models
 
