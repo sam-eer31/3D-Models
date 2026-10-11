@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Formats-GLB%20%7C%20GLTF-orange.svg?style=flat-square" alt="GLB and GLTF">
   <img src="https://img.shields.io/badge/Pipeline-Trimesh%20%7C%20pygltflib-blueviolet.svg?style=flat-square" alt="Pipeline">
   <img src="https://img.shields.io/badge/Optimizer-%40gltf--transform-brightgreen.svg?style=flat-square" alt="gltf-transform">
-  <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square" alt="License Apache 2.0">
+  <img src="https://img.shields.io/badge/License-NonCommercial-blue.svg?style=flat-square" alt="Non-Commercial License">
 </p>
 
 A high-fidelity procedural 3D model generator for astronomical bodies (Earth, Moon, and Topographic Relief Earth) paired with an automated GLB/GLTF compression and optimization pipeline.
@@ -173,4 +173,10 @@ To compress and optimize generated models for web viewers, mobile applications, 
 
 ## License
 
-This project is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
+This project is licensed under a Non-Commercial License. Commercial use requires prior written permission from the copyright holder. See [LICENSE](LICENSE) for the full terms.
+
+---
+
+## Contact / Permission Requests
+
+If you want to use this project or any generated models for commercial purposes, contact the repository owner before use.
