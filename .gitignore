@@ -1,0 +1,15 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large generated 3D models (generated via build_model.bat)
+output/*.glb
+output/*.gltf
+!output/.gitkeep
+
+# System and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
